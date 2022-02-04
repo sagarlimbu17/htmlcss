@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* type selector */
+        h1{
+            color: brown;
+        }
+        /* universal selector */
+        *{
+            color: green;
+        }
+        /* descendant selector */
+        ul em {
+            color: red;
+        }
+
+        /* class selctors */
+        .black {
+            color: black;
+        }
+        h1.orange{
+            color: orange;
+        }
+
+        /* child selector example and only selects direct child */
+        section > p{
+            color: red;
+        }
+        
+        /* descendant selector and selects all child and grandchild elements */
+        section p {
+            color: grey;
+        }
+        #one {
+            color: hotpink;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>This is heading one</h1>
+    <h1 class="orange">Orange</h1>
+    <p>I am inside body</p>
+    <h5>I am heading 5</h5>
+    <ul>
+        inside unordered list <em>element emphasized</em>
+    </ul>
+
+    <p class="black">This is black paragraph</p>
+    <p class="black">This is another black paragraph</p>
+
+    <!-- descentdant  -->
+    <section>
+        <p>This is paragraph</p>
+        <div>
+            <p>This is paragraph inside div</p>
+        </div>
+    </section>
+    <div id="id_div">
+        <p>This is one paragraph</p>
+        <h2>inside of div</h2>
+    </div>
+</body>
+</html>

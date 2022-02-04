@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Attributes</title>
+    <style>
+        #mobile {
+            color: green;
+        }
+
+        .phone {
+            border: 1px red solid;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 
+        1. All HTML elements can have attributes
+        2. Attributes provide additional information about elements
+        3. Attributes are always specified in the start tag
+        4. Attributes usually come in name/value pairs like: name="value" 
+
+        The core attributes that can be used on most of the HTML elements are: id, title, class, style
+    -->
+
+    <p align="left">This paragrahp is aligned left</p>
+    <p align="center">This paragraph is aligned center</p>
+    <p align="right">This paragraph is aligned right</p>
+
+    <!-- id can be used to select unique elements -->
+    <p id="mobile"> This paragraph describes about the mobile phone.</p>
+    <h1 id="mobile"> This is redundant</h1>
+
+    <!-- class attributes can be used for selecting multiple elements -->
+    <p class="phone">This is an android phone.</p>
+    <p class="phone"> This is iphone.</p>
+    <p class="phone">This is windows phone</p>
+
+    <p title="Best Deal Phones">You can view best deal phones from this menu</p>
+
+    <p style="color: blue; font-family: 'Times New Roman', Times, serif">using inline css with style</p>
+
+
+
+
+    
+</body>
+</html>
